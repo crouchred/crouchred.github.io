@@ -119,6 +119,11 @@ google_verify:
 # https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
 bing_verify:         
 
+gitment:
+    owner: crouchred0117
+    repo: crouchred0117.github.io
+    client_id: 303b4541cb365ae1dc1a
+    client_secret: f056ce7fcc6fb114d6b6106d4f81da29ae5f4662
 
 include: []
 exclude: ["README.md"]
