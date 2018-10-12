@@ -136,6 +136,18 @@ Reactor与Proactor能不能这样打个比方：
 + 其他:
 	+ Paxos属于CP，具体不懂，以后再补充
 
+# 23. CAP, ACID, BASE
++ CAP的关键细节:
+	+ cap关注的是数据而非系统。根据不同的数据要求，可以在cp和ap之间切换
+	+ CAP理论是忽略延时的(心跳也有延时)，而实际应用中延时是无法避免，完美CP不存在(所以比如用户余额和商品库存有时必须选择CA,不能多点写入)
+	+ 正常情况下，p分区不出现，同时满足AP
+	+ AP方案中牺牲一致性只是指分区期间，而不是永远放弃一致性。
++ ACID
+	+ CAP是分布式系统设计理论, ACID是数据库事务完整性理论
++ BASE: 是CAP理论(上面的第2，4点的延伸)
+	+ (Basically available)基本可用
+	+ (Soft state)软状态
+	+ Eventual Consistency（最终一致性）
 
 
 
