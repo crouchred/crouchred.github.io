@@ -149,6 +149,21 @@ Reactor与Proactor能不能这样打个比方：
 	+ (Soft state)软状态
 	+ Eventual Consistency（最终一致性）
 
+# 24. FMEA：一种可用性分析方法
+Failure mode and effects analysis(故障模式与影响分析)，其实就是多设计一些异常case，看系统是否依然稳定
+
+### 原来(这边三张图在本地无法显示，github上看下挂了没):
+![原来](/assets/img/2技术/jiagou_23_1.png)
+
+### FMEA分析
+![FMEA分析](/assets/img/2技术/jiagou_23_2.png)
+
+### 改进后
+![改进后](/assets/img/2技术/jiagou_23_3.png)
+
+
+# 25. 高可用存储架构:双机架构
+
 
 
 
