@@ -26,6 +26,17 @@ tags: [tensorflow]
 	+ valid: new_height = ceil((W-F+1)/S)
 	+ valid: new_height = ceil(W/S)
 
+### [ch7]word2vec
++ 很好的参考文章
+	+ [详解skip-gram1](https://www.leiphone.com/news/201706/PamWKpfRFEI42McI.html)
+	+ [详解skip-gram2](https://www.leiphone.com/news/201706/eV8j3Nu8SMqGBnQB.html)
+	+ [详解skip-gram3](https://www.leiphone.com/news/201706/QprrvzsrZCl4S2lw.html)
++ 一些创新(只有第三点书中用到了)
+	+ 常见的单词组合可作为单个词处理
+	+ 高频词单词抽样，限制样本出现次数
+	+ 对输出层进行负采样，提升计算效率
+
+
 # 一些质疑
 ### [ch6]井字棋
 最后的井字棋用demo训练出来的结果很烂, 而且既然已经枚举出了所有情况，又何必用机器学习呢？总之不是一个好例子
