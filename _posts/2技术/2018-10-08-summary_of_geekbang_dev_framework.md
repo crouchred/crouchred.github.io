@@ -87,7 +87,7 @@ tags: [python]
 # 12. 评估选择备选方案
 + 错误思路: 最简派，最熟派，最牛派，领导派
 + 360度测评
-![测评](/assets/img/2技术/jiagou_12_1.png)
+![jiagou_12_1.png](https://raw.githubusercontent.com/crouchred/images/master/jiagou_12_1.png)
 
 # 13. 详细方案设计(如果选了上面的mysql方案)
 + 数据库表如何设计
@@ -278,15 +278,14 @@ Reactor与Proactor能不能这样打个比方：
 # 24. FMEA：一种可用性分析方法
 Failure mode and effects analysis(故障模式与影响分析)，其实就是多设计一些异常case，看系统是否依然稳定
 
-### 原来(这边三张图在本地无法显示，github上看下挂了没):
-![原来](/assets/img/2技术/jiagou_23_1.png)
+### 原来:
+![jiagou_23_1-edbdc50b2e43b3c08c7a897ff9967f72c4512a05.png](https://raw.githubusercontent.com/crouchred/images/master/jiagou_23_1-edbdc50b2e43b3c08c7a897ff9967f72c4512a05.png)
 
 ### FMEA分析
-![FMEA分析](/assets/img/2技术/jiagou_23_2.png)
+![jiagou_23_2.png](https://raw.githubusercontent.com/crouchred/images/master/jiagou_23_2.png)
 
 ### 改进后
-![改进后](/assets/img/2技术/jiagou_23_3.png)
-
+![jiagou_23_3-10cbf3f027259bad924dfc83067184d9c5f3025c.png](https://raw.githubusercontent.com/crouchred/images/master/jiagou_23_3-10cbf3f027259bad924dfc83067184d9c5f3025c.png)
 
 # 25. 高可用存储架构:双机架构
 
@@ -456,7 +455,7 @@ Failure mode and effects analysis(故障模式与影响分析)，其实就是多
 + 用户规模
 
 # 40-43 架构模版
-![框架](/assets/img/2技术/jiagou_40_1.png)
+![jiagou_40_1.png](https://raw.githubusercontent.com/crouchred/images/master/jiagou_40_1.png)
 
 很多以前有过，以下只记录一部分
 
@@ -497,7 +496,7 @@ Failure mode and effects analysis(故障模式与影响分析)，其实就是多
 	+ 接口测试
 	+ 性能测试
 + 设计
-	+ ![测试架构](/assets/img/2技术/jiagou_44_1.png)
+	+ ![jiagou_44_1-049c54d51a2a1d98bfb1526ae04b5eb3b7ea3d87.png](https://raw.githubusercontent.com/crouchred/images/master/jiagou_44_1-049c54d51a2a1d98bfb1526ae04b5eb3b7ea3d87.png)
 	+ 用例： 例如单元测试用例是代码、接口测试用例可以用 Python，可靠性用shell等
 	+ 资源: 例如硬件
 	+ 任务
