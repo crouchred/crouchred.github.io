@@ -6,6 +6,8 @@ category: 技术
 tags: [tensorflow]
 ---
 
+*最后修改时间: 2019-01-09*
+
 # 知识点
 ### [ch6]神经网络activation funciton
 + sigmoid
@@ -45,6 +47,13 @@ tags: [tensorflow]
 	+ 词cos 相关性
 	+ Analogy对比:a:b 与 c:d的cos距离 (man-king woman-queen )
 	+ 使用tnse，pca等降维可视化展示(tensorboard或matplotlib)
+
+### [ch8] Retrain Existing CNNs models
++ [tensorflow hub Image Retrain](https://www.tensorflow.org/hub/tutorials/image_retraining)
++ 获取一个分类模型有三种方式(后两种成为迁移学习):
+    + train from scratch: 从头训练
+    + Fine-tune model: 所以参数都可变化
+    + retrain model: 只训练模型最后一层softmax层，其余层参数全部固化; 实际使用中, 计算每张图片的bottleneck(倒数第二层)并保存
 
 # 一些质疑
 ### [ch6]井字棋
