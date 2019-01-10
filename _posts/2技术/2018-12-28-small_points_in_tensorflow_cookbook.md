@@ -6,7 +6,7 @@ category: 技术
 tags: [tensorflow]
 ---
 
-*最后修改时间: 2019-01-09*
+*最后修改时间: 2019-01-10*
 
 # 知识点
 ### [ch6]神经网络activation funciton
@@ -54,6 +54,13 @@ tags: [tensorflow]
     + train from scratch: 从头训练
     + Fine-tune model: 所以参数都可变化
     + retrain model: 只训练模型最后一层softmax层，其余层参数全部固化; 实际使用中, 计算每张图片的bottleneck(倒数第二层)并保存
+
+### [ch10] Taking TF to production tips
++ tf.reset_default_graph() 
++ 使用tf.train.Saver() 保存checkpoint
++ save之前确保每个variable都有name
++ tf.app.flags设置命令行参数
++ tf.set_verbosity()设置内置的log级别
 
 # 一些质疑
 ### [ch6]井字棋
