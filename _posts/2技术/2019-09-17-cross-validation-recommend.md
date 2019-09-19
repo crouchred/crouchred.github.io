@@ -6,6 +6,8 @@ category: 技术
 tags: [cv]
 ---
 
+*最后修改时间: 2019-09-19*
+
 # 1. 缘起
 
 我比较懒，以前在做模型的时候一般都选用holdout cross validation，最近在看k-fold cv的时候偶然接触到nested cv, 至此一发不可收拾, 实在是想搞明白这个方法，说是使"the true error of the estimate is almost unbiased relative to the test set when nested cross-validation is used"。
@@ -144,7 +146,7 @@ def get_gsearch(pipe, X, y):
                   {"clf__C":param_range,
                    "clf__gamma":param_range,
                    "clf__kernel":['rbf']}]
-    gsearch = GridSearchCV(pipe , param_grid = param_grid, scoring='accuracy', cv=5 )
+    gsearch = GridSearchCV(pipe , param_grid = param_grid, scoring='accuracy', cv=5 , verbose=10)
     gsearch.fit(X, y)
     print_best_score(gsearch)
     return gsearch
