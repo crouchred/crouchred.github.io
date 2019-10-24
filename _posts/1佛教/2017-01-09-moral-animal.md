@@ -2,7 +2,7 @@
 layout: post
 title: 《道德动物》读后感
 description: 《道德动物》读后感
-category: 读书
+category: 佛教
 tags: [进化心理学]
 ---
 
