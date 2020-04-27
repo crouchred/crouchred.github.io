@@ -54,7 +54,7 @@ tags: [数据挖掘]
 + [Is R2 Useful or Dangerous](https://stats.stackexchange.com/questions/13314/is-r2-useful-or-dangerous)
 + [Why Is There No R-Squared for Nonlinear Regression](https://blog.minitab.com/blog/adventures-in-statistics-2/why-is-there-no-r-squared-for-nonlinear-regression)
 + [Five Reasons Why Your R-squared Can Be Too High](https://blog.minitab.com/blog/adventures-in-statistics-2/five-reasons-why-your-r-squared-can-be-too-high)
-+ [sklearn r2_score]http://scikit-learn.org/stable/modules/generated/sklearn.metrics.r2_score.html
++ [sklearn r2score]http://scikit-learn.org/stable/modules/generated/sklearn.metrics.r2_score.html
 + [sklearn Regression metrics ](https://scikit-learn.org/stable/modules/model_evaluation.html#regression-metrics)
 + [8 Tips for Interpreting R-Squared](https://www.displayr.com/8-tips-for-interpreting-r-squared/)
 
