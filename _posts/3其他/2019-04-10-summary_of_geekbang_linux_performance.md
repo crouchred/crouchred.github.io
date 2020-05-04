@@ -2,7 +2,7 @@
 layout: post
 title: Linux性能优化(极客时间)总结
 description: Linux性能优化(极客时间)总结
-category: 技术
+category: 其他
 tags: [linux]
 ---
 

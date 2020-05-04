@@ -2,7 +2,7 @@
 layout: post
 title: tensorflow machine learning cookbook的小知识点
 description: 书的一些零碎的知识点，和一些错误
-category: 技术
+category: 其他
 tags: [tensorflow]
 ---
 
