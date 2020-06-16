@@ -21,9 +21,17 @@ tags: [deeplearning]
 + [其他队伍分享见论坛](https://tianchi.aliyun.com/competition/entrance/231743/forum)
 
 ## 我队关键点
-#### 用户视角检验
-+ 对自己下载的图片做了人工筛选和匹配的工作，并把错误分为了5大类。比较可惜的是没有把这种分类和loss function结合。如果给不同的错误赋予不同的权重可能会不错，比赛后我测了一下，准确率大概会高0.5分，而且收敛速度会快很多(但本身模型的随机性很大，测试并不严谨)。
-+ [Is there a way in Keras to apply different weights to a cost function?](https://github.com/keras-team/keras/issues/2115)
+#### 根据用户视角，制作`categorical_crossentropy_weight`
++ 简述: 对自己下载的图片做了人工筛选和匹配的工作，并把错误分为了5大类。根据错误分类设置weight和loss function结合，给不同的错误赋予不同的权重。
++ 效果: 提高了模型精度的同时(约1个点)而且收敛速度会快很多。
++ 例子: 把拖把识别为耳机的错误,比把充电器识别成充电线的错误更严重。
++ 错误类型
+  1. 人肉很难识别(权重:0.1): 充电器=》充电线，纸箱=》快递盒
+  2. 形状颜色相近(权重:0.3): 奶粉=》白糖盐，毛毯=》抹布。
+  3. 颜色相近(权重:0.6): 纸尿裤=》杯子
+  4. 形状相近(权重:0.6): 筷子=》水彩笔，杏仁=》葡萄干
+  5. 明显不同(权重:1)：拖把=》耳机
++ 代码参考: [Is there a way in Keras to apply different weights to a cost function?](https://github.com/keras-team/keras/issues/2115)
 
 #### 线下两环境+线上环境
 1. 线下调参环境
