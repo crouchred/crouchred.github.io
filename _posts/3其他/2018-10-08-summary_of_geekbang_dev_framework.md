@@ -2,7 +2,7 @@
 layout: post
 title: 从零开始学架构(极客时间)总结
 description: 从零开始学架构(极客时间)总结
-category: 技术
+category: 其他
 tags: [python]
 ---
 *最后修改时间: 2019-03-25*
